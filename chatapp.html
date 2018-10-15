@@ -1,0 +1,62 @@
+<?xmlversion = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+	<meta name="authors" content="Andrew Nguyen Pic40A"/> 
+	<meta name="description" content="Translating_Chat_App" />
+	<meta name= "keywords" content="chat"/>
+	<meta name= "copyright" content="Copyright 2018 Andrew Nguyen"/>
+
+	<title>Group Chat</title>
+
+	<link rel="stylesheet" type="text/css" href="login.css" />
+	<!--styling for the css, would have two images color-blocked with two people talking and then the login form in the middle-->
+<!-- 	<script type="text/javascript">
+		function cookie_username(){
+			username_node=document.getElementById("input_name");
+			username=username_node.value;
+
+			document.cookie="username="+username+";";
+			alert(username);
+			download project, get a server that hosts projects, have to pay some server like $5 a month, set up accounts, google for webhosting, gives command line access
+		}
+	download project, get a server that hosts projects, have to pay some server like $5 a month, set up accounts, google for webhosting, gives command line access
+		}
+
+	</script> -->
+</head>
+
+<body style="background-color: #E0FFFF">
+	
+	<h1> Group Chat </h1>
+	<div id='input'>
+		<form action="chatapp.php" method="post"> 
+				<p> Create new user? Requires a Username to Post</p>
+				<label for="yes_check"> Yes </label>
+				<input type="radio" name="vote" value="yes" id="yes_check" /><br/>
+				
+				<label for="no_check"> No </label>
+				<input type="radio" name="vote"  value="no" id="no_check" /><br/>
+			
+			<label for ="user_name"> Your User Name: </label>
+			<input type="text" name="user_name" id="input_name"/>
+			<br/>
+			<label for ="user_password"> Your Password: </label>
+			<input type="password" name="user_password" id="input_password"/>
+	
+			<input type="submit" value="Submit" /> 
+			<!--submit button reloads the whole page-->
+
+
+		</form>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
